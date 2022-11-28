@@ -1,4 +1,3 @@
-# makefile pour ft_printf, need to add the one for libc
 NAME = libftprintf.a
 
 CC = cc
@@ -7,7 +6,7 @@ AR = ar
 ARFLAGS = rcs
 RM = rm -f
 
-SRCS = ft_printf.c \
+SRCS = ft_printf.c ft_strlen.c \
 
 HEADER = ft_printf.h
 OBJS =  $(patsubst %.c,%.o,$(SRCS))
