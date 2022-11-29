@@ -6,7 +6,8 @@ AR = ar
 ARFLAGS = rcs
 RM = rm -f
 
-SRCS = ft_printf.c ft_strlen.c \
+SRCS = ft_printf.c ft_putchar.c ft_putnbr.c ft_putnbr_base.c \
+	ft_putnbr_unsigned.c ft_putstr.c ft_strlen.c ft_putptr_base.c \
 
 HEADER = ft_printf.h
 OBJS =  $(patsubst %.c,%.o,$(SRCS))
