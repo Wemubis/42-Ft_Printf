@@ -16,9 +16,13 @@ La fonction ft_printf doit prendre en charge un certain nombre de spécificateur
 ## Utilisation
 
 1. Clonez ce dépôt :
-`git clone https://github.com/Wemubis/ft_printf.git`
+```bash
+  git clone https://github.com/Wemubis/ft_printf.git
+```
 
-2. Compilez la bibliothèque :
-`make`
+3. Compilez la bibliothèque :
+```bash
+  make
+```
 
 Puis utilisez la fonction ft_printf dans votre code comme bon vous semble.
