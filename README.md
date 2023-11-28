@@ -8,15 +8,15 @@ La fonction ft_printf doit prendre en charge un certain nombre de spécificateur
 
 ## Fonctionnalités
 
-- Gestion des spécificateurs de format ``, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`.
+- Gestion des spécificateurs de format `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`.
 - Gestion des indicateurs de format tels que la largeur de champ et la précision.
-- Gestion de caractères spéciaux tels que %% pour afficher le caractère `%`.
+- Gestion de caractères spéciaux tels que `%%` pour afficher le caractère `%`.
 - Retour du nombre total de caractères écrits.
 
 ## Utilisation
 
 1. Clonez ce dépôt :
-`git clone <lien_du_depot>`
+`git clone https://github.com/Wemubis/ft_printf.git`
 
 2. Compilez la bibliothèque :
 `make`
